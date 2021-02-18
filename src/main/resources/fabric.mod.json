@@ -20,7 +20,7 @@
 
   "environment": "client",
   "entrypoints": {
-    "client": [
+    "meteor": [
       "meteordevelopment.meteormbd.MeteorMBD"
     ]
   },

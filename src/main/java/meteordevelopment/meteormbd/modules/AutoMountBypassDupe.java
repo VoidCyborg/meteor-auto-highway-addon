@@ -10,6 +10,7 @@ package meteordevelopment.meteormbd.modules;
 import meteordevelopment.orbit.EventHandler;
 import minegame159.meteorclient.events.packets.PacketEvent;
 import minegame159.meteorclient.events.world.TickEvent;
+import minegame159.meteorclient.modules.Categories;
 import minegame159.meteorclient.modules.Category;
 import minegame159.meteorclient.modules.Module;
 import minegame159.meteorclient.modules.Modules;
@@ -70,7 +71,7 @@ public class AutoMountBypassDupe extends Module {
     private int timer;
 
     public AutoMountBypassDupe() {
-        super(Category.Misc, "auto-mount-bypass-dupe", "Does the mount bypass dupe for you. Disable with esc.");
+        super(Categories.Misc, "auto-mount-bypass-dupe", "Does the mount bypass dupe for you. Disable with esc.");
     }
 
     @Override

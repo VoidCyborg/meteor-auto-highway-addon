@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "meteor-mbd",
+  "id": "meteor-auto-highway",
   "version": "${version}",
 
-  "name": "Meteor MBD Addon",
-  "description": "An addon to Meteor Client that adds the AutoMountBypassDupe module.",
+  "name": "Meteor Auto Highway Addon",
+  "description": "An addon to Meteor Client that adds the AutoHighway module.",
   "authors": [
     "seasnail8169"
   ],
@@ -21,7 +21,7 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "meteordevelopment.meteormbd.MeteorMBD"
+      "meteordevelopment.meteormbd.MeteorAutoHighway"
     ]
   },
   "mixins": [
